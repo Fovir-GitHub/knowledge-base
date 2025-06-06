@@ -28,8 +28,6 @@ export default hopeTheme({
     "Author", "Date", "Word"
   ],
 
-  home: "/en/",
-
   darkmode: "toggle",
 
   locales: {
@@ -39,7 +37,7 @@ export default hopeTheme({
 
       // sidebar
       sidebar: {
-        "/en/": "structure",
+        "/": "structure",
       },
 
       displayFooter: true,

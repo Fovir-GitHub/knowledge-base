@@ -5,11 +5,11 @@ description: This post shares how do I use Radicale as the backend and use Thund
 icon: stash:calendar
 ---
 
-# Background
+## Background
 
 Due to large number of schedule, it is necessary for me to have a calendar which can help me to schedule my day. In the last year, I used [Outlook Calendar](https://www.microsoft.com/en-us/microsoft-365/outlook/calendar-app) to schedule my time. It is both useful and convenient, but I still choose to self-host a scheduler for privacy reasons.
 
-# My Solution
+## My Solution
 
 My solution contains two parts, the server and the client. Both of them should be open-source and non-commercialized applications, which can protect my privacy as much as possible.
 
@@ -40,7 +40,7 @@ graph LR
 
 Now, I will introduce how to deploy Radicale and Traefik and how to configure the clients.
 
-# Deploy Traefik
+## Deploy Traefik
 
 I use docker compose to deploy Traefik. Here is my compose file:
 
@@ -118,7 +118,7 @@ Now, we can start with the following command.
 docker compose up -d
 ```
 
-# Deploy Radicale
+## Deploy Radicale
 
 I prefer to deploy application with docker. So I use [docker-radicale](https://github.com/tomsquest/docker-radicale) to deploy Radicale.
 
@@ -346,13 +346,13 @@ Replace the `username` and the `password` with your own username and password. A
 
 Now, just run `docker compose up -d` to start the docker container. Try to access the website. If everything goes well, after inputting the username and the password, it will redirect to the `https://radicale.example.com/.web/` and display a user interface. After logging in, you can create calendars.
 
-# Configure Clients
+## Configure Clients
 
-## Desktop
+### Desktop
 
 It is easy to configure Thunderbird Calendar. Firstly, open Thunderbird and go to the calendar tab. Then, click on `New Calendar` and select `On the Network`. Finally, input the username and the domain and click `Find Calendars`.
 
-## Android
+### Android
 
 The process is similar to configuring Thunderbird Calendar. Just click the `+` sign, and input the URL and username.
 

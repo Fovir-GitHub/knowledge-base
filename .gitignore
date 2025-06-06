@@ -3,4 +3,5 @@ pnpm-lock.yaml
 tsconfig.json
 package.json
 
-.vuepress/
+.cache/
+.temp/

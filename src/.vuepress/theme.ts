@@ -24,7 +24,7 @@ export default hopeTheme({
 
       // sidebar
       sidebar: {
-        "/en/": "structure",
+        "/": "structure",
       },
 
       footer: "Default footer",

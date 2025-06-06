@@ -5,21 +5,30 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://fovir.fyi",
-
   author: {
     name: "Fovir",
     url: "https://fovir.fyi",
   },
 
   logo: "https://img.fovir.fyi/fovir.png",
+  logoDark: "https://img.fovir.fyi/fovir.png",
+  favicon: "https://img.fovir.fyi/fovir.ico",
 
   repo: "Fovir-GitHub/knowledge-base",
+  license: "CC BY 4.0",
 
   docsDir: "src",
 
-  license: "CC BY 4.0",
-
   editLink: false,
+  prevLink: false,
+  nextLink: false,
+  print: false,
+
+  pageInfo: [
+    "Author", "Date", "Category", "Tag", "Word"
+  ],
+
+  home: "/en/",
 
   locales: {
     "/": {
@@ -28,7 +37,7 @@ export default hopeTheme({
 
       // sidebar
       sidebar: {
-        "/": "structure",
+        "/en/": "structure",
       },
 
       displayFooter: true,

@@ -25,7 +25,7 @@ export default hopeTheme({
   print: false,
 
   pageInfo: [
-    "Author", "Date", "Category", "Tag", "Word"
+    "Author", "Date", "Word"
   ],
 
   home: "/en/",

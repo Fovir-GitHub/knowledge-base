@@ -12,7 +12,7 @@ Few days ago, I tried to deploy `Gitea` on my VPS, and enabled SSH connection. H
 
 At first, I followed ChatGPT and Cloudflare official document steps to deploy Cloudflare Tunnel, and everything went well in the beginning. But in the next morning, I found that I couldn't connect to my VPS through SSH, and all of my services were down. To address this problem, I logged into the website of the provider, [Greencloud](https://greencloudvps.com/) and tried to reach my VPS through the official terminal. When I launched the terminal, it required me to key in username and password to log in. The username, root, is short and easy to type in, while my password was too long to type in manually. It is worse that Greencloud does not provide copy and paste function in its console. That is, my password blocked myself.
 
-So I had to find ways to log in my VPS. And during this process, I found a way to bypass the password authentication and run bash as root user through grub. Now, I would like to introduce this method to you.
+So I had to find ways to log in my VPS. And during this process, I found a way to bypass the password authentication and run bash as root user through grub. Now, I would like to document it.
 
 ## Method
 

@@ -1,5 +1,5 @@
 ---
 title: Go
-icon: devicon:go
+icon: lineicons:go
 index: false
 ---

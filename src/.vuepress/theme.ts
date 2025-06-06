@@ -30,6 +30,8 @@ export default hopeTheme({
 
   home: "/en/",
 
+  darkmode: "toggle",
+
   locales: {
     "/": {
       // navbar

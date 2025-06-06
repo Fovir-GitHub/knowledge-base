@@ -35,6 +35,14 @@ export default hopeTheme({
         editLink: "Edit this page on GitHub",
       },
     },
+
+    "/zh/": {
+      navbar: zhNavbar,
+
+      sidebar: {
+        "/zh/": "structure",
+      },
+    },
   },
 
   encrypt: {
@@ -129,6 +137,10 @@ export default hopeTheme({
 
     icon: {
       prefix: "fa6-solid:",
+    },
+
+    redirect: {
+      switchLocale: false,
     },
 
     // Install @vuepress/plugin-pwa and uncomment these if you want a PWA

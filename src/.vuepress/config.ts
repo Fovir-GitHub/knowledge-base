@@ -8,8 +8,14 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "en-US",
-      title: "Docs Demo",
-      description: "A docs demo for vuepress-theme-hope",
+      title: "Fovir's Knowledge Base",
+      description: "Choose your language and start!",
+    },
+
+    "/zh/": {
+      lang: "zh-CN",
+      title: "Fovir's Knowledge Base",
+      description: "Choose your language and start!",
     },
   },
 

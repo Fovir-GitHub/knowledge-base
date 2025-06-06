@@ -4,18 +4,22 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://fovir.fyi",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Fovir",
+    url: "https://fovir.fyi",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "https://img.fovir.fyi/fovir.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "Fovir-GitHub/knowledge-base",
 
   docsDir: "src",
+
+  license: "CC BY 4.0",
+
+  editLink: false,
 
   locales: {
     "/": {
@@ -27,13 +31,7 @@ export default hopeTheme({
         "/": "structure",
       },
 
-      footer: "Default footer",
-
       displayFooter: true,
-
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
     },
 
     "/zh/": {

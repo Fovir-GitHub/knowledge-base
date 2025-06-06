@@ -44,14 +44,6 @@ export default hopeTheme({
 
       displayFooter: true,
     },
-
-    "/zh/": {
-      navbar: zhNavbar,
-
-      sidebar: {
-        "/zh/": "structure",
-      },
-    },
   },
 
   // These features are enabled for demo, only preserve features you need here

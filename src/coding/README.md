@@ -1,5 +1,5 @@
 ---
-title: Programming Languages
+title: Coding
 icon: solar:programming-bold
 index: false
 ---

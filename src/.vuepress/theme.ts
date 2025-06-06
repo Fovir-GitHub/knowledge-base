@@ -23,7 +23,9 @@ export default hopeTheme({
       navbar: enNavbar,
 
       // sidebar
-      sidebar: enSidebar,
+      sidebar: {
+        "/": "structure",
+      },
 
       footer: "Default footer",
 

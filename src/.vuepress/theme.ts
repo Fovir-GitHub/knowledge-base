@@ -29,7 +29,6 @@ export default hopeTheme({
   ],
 
   home: "/en/",
-  focus: true,
 
   darkmode: "toggle",
 

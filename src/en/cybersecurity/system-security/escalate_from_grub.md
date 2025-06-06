@@ -1,7 +1,7 @@
 ---
 date: 2025-01-18
 title: Escalate Privileges from Grub
-summary: This post records a method of using grub to escalate privileges that was accidentally discovered during the deployment of Cloudflare Tunnel.
+description: This post records a method of using grub to escalate privileges that was accidentally discovered during the deployment of Cloudflare Tunnel.
 keywords: ["grub","escalate privileges","bypass password"]
 icon: uil:linux
 ---

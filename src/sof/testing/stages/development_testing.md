@@ -1,5 +1,6 @@
 ---
 title: Development Testing
+description: Introduce the testing stage - development testing.
 icon: fluent:developer-board-16-filled
 date: 2025-06-07
 ---
@@ -86,3 +87,9 @@ There are two important differences between system testing and component testing
 2. Components developed by different team members or groups may be integrated at this stage. System testing is a collective rather than an individual process.
 
 #### Use-Case Testing
+
+The use-cases developed to identify system interactions can be used as a basis for system testing.
+
+Each use-case usually involves several system components, so testing the use-case forces these interactions to occur.
+
+The sequence diagrams associated with the use-case documents the components and interactions that are being tested.

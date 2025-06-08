@@ -2,7 +2,8 @@
 title: Fundamental
 icon: fa-solid:question
 index: false
-order: 0
+dir:
+    order: 1
 ---
 
 <Catalog />

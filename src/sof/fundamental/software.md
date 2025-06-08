@@ -3,7 +3,7 @@ date: 2025-06-07
 title: Software
 icon: hugeicons:software-license
 description: Introduction of software.
-sticky: 100
+order: 0
 ---
 
 ## Definition

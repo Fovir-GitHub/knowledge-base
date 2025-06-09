@@ -1,0 +1,3 @@
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QWhat is the hierarchy of tasks?\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QWhat is the sequence of work tasks—the workflow?\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QWhat specific problem domain objects will the user manipulate as work is performed?\\E$"}

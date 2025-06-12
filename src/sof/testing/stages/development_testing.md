@@ -3,6 +3,7 @@ title: Development Testing
 description: Introduce the testing stage - development testing.
 icon: fluent:developer-board-16-filled
 date: 2025-06-07
+order: 1
 ---
 
 ## Unit Testing
@@ -93,3 +94,45 @@ The use-cases developed to identify system interactions can be used as a basis f
 Each use-case usually involves several system components, so testing the use-case forces these interactions to occur.
 
 The sequence diagrams associated with the use-case documents the components and interactions that are being tested.
+
+#### Test Cases Derived from Sequence Diagram
+
+* An input of a request for a report should have an associated acknowledgement. A report should ultimately be returned from the request.
+* You should create summarized data that can be used to check that the report is correctly organized.
+
+## Test-driven Development (TDD)
+
+* Test-driven development is an approach to program development in which you inter-leave testing and code development.
+* Tests are written before code and passing the tests is the critical driver of development.
+* Developers develop code incrementally, along with a test for that increment.
+* TDD was introduced as part of agile methods such as Extreme Programming. However, it can also be used in plan-driven development processes.
+
+![Test-driven Development](../../../img/test_driven_development.png)
+
+### TDD Process Activities
+
+1. Start by identifying the increment of functionality that is required.
+2. Write a test for this functionality and implement this as an automated test.
+3. Run the test, along with all other tests that have been implemented.
+4. Implement the functionality and re-run the test.
+5. Once all tests run successfully, moving on to implementing the next chunk of functionality.
+
+### Benefits of Test-driven Development   
+
+* Code coverage
+    * Every code segment has at least one associated test.
+* Regression testing
+    * A regression test suite is developed incrementally as a program is developed.
+* Simplified debugging
+    * When a test fails, it is obvious where the problem is. Then the newly written code needs to be checked and modified.
+* System documentation
+    * The tests themselves are a form of documentation that describe what the code should be doing.
+
+## Regression Testing
+
+Regression testing is testing the system to check that changes have not broken previously working code.
+
+In a manual testing process, regression testing is expensive but with automated testing, it is simple and straightforward. All tests are re-run after each change.
+
+Tests must run successfully before the change is committed.
+

@@ -9,6 +9,5 @@ pkgs.mkShell {
   shellHook = ''
     export NODE_ENV=development
     echo "Node: $(node -v), pnpm: $(pnpm -v)"
-    exec zsh
   '';
 }

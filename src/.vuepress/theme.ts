@@ -28,7 +28,7 @@ export default hopeTheme({
     "Author", "Date", "Word"
   ],
 
-  darkmode: "toggle",
+  darkmode: "enable",
 
   locales: {
     "/": {

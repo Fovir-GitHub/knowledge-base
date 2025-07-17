@@ -3,7 +3,7 @@ title: Comparison And Conclusion
 date: 2025-06-08
 icon: iconamoon:compare
 description: Comparison between waterfall model, incremental model, and spiral model.
-order: 5
+order: 6
 ---
 
 <table border="1">

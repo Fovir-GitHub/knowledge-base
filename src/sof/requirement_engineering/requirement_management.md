@@ -29,7 +29,7 @@ description: Introduce the requirement management.
 
 ```mermaid
 graph LR
-  ip[Identified Problem]-->paacs[Problem Analysis And Change Specification]-->caac[Change Analysis And Costing]-->ci[Change Implementatio]-->rr[Revised Requirements]
+  ip[Identified Problem]-->paacs[Problem Analysis And Change Specification]-->caac[Change Analysis And Costing]-->ci[Change Implementation]-->rr[Revised Requirements]
 ```
 
 * During this stage, the problem or the change proposal is analyzed to check that it is valid. This analysis is fed back to the change requestor who may respond with a more specific requirements change proposal, or decide to withdraw the request.

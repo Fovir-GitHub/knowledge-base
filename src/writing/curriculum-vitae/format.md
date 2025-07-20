@@ -14,7 +14,7 @@ A CV includes following sections:
   * Personal Information
   * Educational Background and Academic Qualifications
   * Work Experience
-  * Skills (Hard Skill and Soft Skill)
+  * Skills (Hard Skill and Soft/Interpersonal Skill)
   * Reference
 * Additional:
   * Career Objective
@@ -22,6 +22,8 @@ A CV includes following sections:
   * Personal Interests and Hobbies
   * Salary Information
   * Personal Characteristic
+  * Awards
+  * Salary Information (If requested)
 
 ### Personal Information
 
@@ -41,6 +43,21 @@ Mention:
 * Year and the Name of Institutions
 * Qualifications Obtained
 * CGPA Details
+
+Degree:
+
+> Undergraduate Program/Degree or First Degree = Bachelor Degree
+> Postgraduate Program/Degree = Master's Degree or Doctorate Degree (PhD)
+> Postgraduate Diploma = A short program can be taken after Bachelor Degree, but lower than Postgraduate Degree and Master's Degree.
+
+CGPA:
+
+| Class | Score |
+| --- | --- |
+| First Class | 3.6 - 4.0 |
+| Second Class Upper | 3.0 - 3.59 |
+| Second Class Lower | 2.50 - 2.99 |
+| Pass | 2.00 - 2.49 |
 
 ### Work Experience
 

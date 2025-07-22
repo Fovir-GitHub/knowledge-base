@@ -14,7 +14,7 @@ export default hopeTheme({
   logoDark: "https://img.fovir.fyi/fovir.png",
   favicon: "https://img.fovir.fyi/fovir.ico",
 
-  repo: "Fovir-GitHub/knowledge-base",
+  repo: "https://github.com/Fovir-GitHub/",
   license: "CC BY 4.0",
 
   docsDir: "src",
